@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: rgb(240, 209, 209);
+}
+#head1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#ul1 {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#hehe{
+    display: flex;
+    justify-content: space-around;
+}
+article{
+    margin-top: 100px;
+    font-size: x-large;
+    align-items: center;
+}
+button{
+    border: 1px solid black;
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: orangered;
+    margin-top: 20px ;
+    cursor: pointer;
+
+    
+}
+img1{
+    border: 20px solid rgb(246, 196, 196);
+    border-radius: 2%;
+}
+#abc{
+    background-color:rgb(245, 176, 176);
+    border: 2px solid black;
+    color:white;
+    width: 80vw;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3),10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+}
+#abd{
+    background-color:rgb(245, 176, 176);
+    border: 2px solid black;
+    text-align: right;
+    justify-content: flex-end;
+    color:white;
+    width: 80vw;
+    height: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left:200px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3),10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    list-style-position: inside;
+}
+#abe{
+    background-color:rgb(245, 176, 176);
+    border: 2px solid black;
+    color:white;
+    width: 80vw;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3),10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+}
+.c1{
+    background-color:rgb(241, 201, 201) ;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 12px solid rgb(241, 201, 201);
+    display:flex ;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3),10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+#i1{
+    padding-left: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+    list-style-position: inside;
+    width: 49%;
+    background-color: rgb(240, 209, 209);
+}
+    
+
+ul{
+    font-size: 30px;
+}  
+
+li{
+    font-size: 20px;
+}
+#i2{
+    padding-left: 2px;
+    border-radius: 10px;
+    border: 2px solid black;
+    list-style-position: inside;
+    width: 49%;
+    background-color: rgb(240, 209, 209);
+}
+
