@@ -41,10 +41,32 @@ button{
 
     
 }
-img1{
-    border: 20px solid rgb(246, 196, 196);
-    border-radius: 2%;
+#img1{
+    
+        border: 20px solid rgb(246, 196, 196);
+        border-radius: 2%;
+        position: relative; /* Required for translate to work properly */
+        animation: fallAndShake 3s ease-in forwards, earthquake 0.1s infinite 3s;
+    
+    
 }
+@keyframes fallAndShake {
+    0% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    60% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    80% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 #abc{
     background-color:rgb(245, 176, 176);
     border: 2px solid black;
@@ -119,4 +141,33 @@ li{
     width: 49%;
     background-color: rgb(240, 209, 209);
 }
+/* Typewriter effect */
+.typewriter {
+    display: inline-block;
+    overflow: hidden; /* Ensures the text is hidden until animated */
+    
+    white-space: nowrap; /* Prevents text from wrapping */
+    margin: 0 auto; /* Centers the text */
+    letter-spacing: 0.10em; /* Adds spacing between letters */
+    animation: typing 3.5s steps(40, end);
+}
 
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0; /* Starts with no width */
+    }
+    to {
+        width: 100%; /* Expands to full width */
+    }
+}
+
+/* Cursor blink animation */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent; /* Hides the cursor */
+    }
+    50% {
+        border-color: orange; /* Shows the cursor */
+    }
+}
